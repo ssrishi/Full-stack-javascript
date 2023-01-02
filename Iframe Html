@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFRAME</title>
+</head>
+<body>
+    <h1> Learning Iframe in html</h1>
+    <p style="font-size: 29px"> <mark> Iframe means in html embedding another HTML page into the current one.<br>Means using another html web page into current one.<br>Here i embedded youtube html webpage of hitesh sir's video into my current web page.</p></mark>
+    <iframe 
+    src="https://www.youtube.com/embed/v-xdY6VFcio" width="560" height="315" frameborder="15" allowfullscreen >
+
+    </iframe>
+</body>
+</html>
