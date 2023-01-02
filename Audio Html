@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A description of the page">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="googlebot" content="translate">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio tag</title>
+</head>
+<body>
+    <p>sample audio is used here</p>
+    <audio controls  src="https://www.fesliyanstudios.com/play-mp3/6560"
+    type="audio/play-mp3"></audio>
+</body>
+</html>
