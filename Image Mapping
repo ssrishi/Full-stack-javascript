@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img usemap="#image-map" src="./image/WIN_20221107_13_57_06_Pro.jpg" fetchpriority="high" alt="My image">
+    <img usemap="#image-map" src="./image/WIN_20221107_13_57_06_Pro.jpg" width="400" alt="My image">
+    <map name="image-map">
+        <area target="" onclick="myfuncone()" alt="" title="" href="" coords="481,75,792,406" shape="rect">
+        <area target="" onclick="myfunctwo()" alt="" title="" href=""
+            coords="423,506,903,678,426,553,433,546,464,552,535,556,566,574,522,597" shape="0">
+    </map>
+    <script>
+        function myfuncone() {
+            alert("You clicked face")
+        }
+        function myfunctwo() {
+            alert("You clicked two")
+        }
+    </script>
+    </img>
+</body>
+
+</html>
