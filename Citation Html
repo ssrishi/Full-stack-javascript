@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <abbr title="Rishi">Rishi</abbr>  
+    <address>
+    H.no-1174A <br> 
+    sector-23A
+    </address>
+    <blockquote cite="https://ineuron.ai"> Time is money</blockquote>
+    <q>Time is money</q>
+    <p> <cite>Rishi</cite>: MCA student </p>
+    <bdo dir="rtl">Rishi</bdo>
+</body>
+</html>
