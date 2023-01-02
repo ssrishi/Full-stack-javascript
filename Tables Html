@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border='1' style='border-collapse:collapse'>
+        <tr>
+            <th>Sr.No</th>
+            <th>Lec 1</th>
+            <th>Lec 2</th>
+            <th>Lec 3</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>computer</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>SST</td>
+        </tr>
+    </table>
+</body>
+</html>
