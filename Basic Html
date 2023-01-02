@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Html</title>
+</head>
+<body>
+    <h1>this is heading one </h1>
+    <h2 title="Rahul SHarma">this is heading two</h2>
+    <p title="Rishi sharma">This is paragraph</p>
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Temporibus optio, aspernatur velit facere ipsam
+        recusandae quibusdam reiciendis dolore eius debitis corrupti illum excepturi cum impedit exercitationem, iure,
+        deserunt vero accusamus cumque! <hr> Nulla id inventore praesentium iste unde dolorem assumenda quidem pariatur
+        accusamus aliquid nostrum aliquam aut accusantium doloremque amet, hic neque minus rerum quos? Impedit explicabo
+        facere eaque, perferendis, dicta dolorem cum quo id sint iste placeat quas doloremque accusantium! Vel adipisci
+        ullam quidem omnis quam minus nam nulla maiores, eveniet quas placeat, tenetur eum, eaque consequatur aut ipsam
+        nesciunt optio veritatis fugit voluptates ex voluptas exercitationem? Sint, quisquam et? </p>
+        <img src="https://images.pexels.com/photos/1261427/pexels-photo-1261427.jpeg" alt="code photo" width="200">
+        <a href="./Hyperlink_practice.html" target="_top">Click to check my practice </a>
+    </body>
+</html>
