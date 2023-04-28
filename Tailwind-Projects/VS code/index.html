@@ -9,24 +9,27 @@
 </head>
 <body class="m-0 p-0 box-border overflow-x-hidden">
   <!-- Navbar -->
-  <nav class="flex justify-around items-center h-12 bg-gray-500">
+  <header class="bg-[#2c2c32] text-white text-center absolute">Only For Education Purpose</header>
+  <nav class="flex justify-around items-center h-14 bg-[#2c2c32]">
     <div>
-      <ul class="flex gap-6">
-        <li><img class="w-auto h-7" src="./Visual_Studio_Code_1.35_icon.svg.png" alt=""></li>
-        <li>Visual Studio Code</li>
-        <li>Docs</li>
-        <li>Updates</li>
-        <li>Blog</li>
-        <li>API</li>
-        <li>Extensions</li>
-        <li>FAQ</li>
-        <li>Learn</li>
+      <ul class="flex justify-around items-center gap-6">
+        <div class=" flex gap-3 justify-center"> 
+          <li><img class="w-auto h-6" src="./Visual_Studio_Code_1.35_icon.svg.png" alt=""></li>
+          <li class="text-white font-medium text-lg">Visual Studio Code</li>
+        </div>
+        <li class="text-[#9d9d9d] font-medium hover:text-[#fcfcfc]">Docs</li>
+        <li class="text-[#9d9d9d] font-medium hover:text-[#fcfcfc]">Updates</li>
+        <li class="text-[#9d9d9d] font-medium hover:text-[#fcfcfc]">Blog</li>
+        <li class="text-[#9d9d9d] font-medium hover:text-[#fcfcfc]">API</li>
+        <li class="text-[#9d9d9d] font-medium hover:text-[#fcfcfc]">Extensions</li>
+        <li class="text-[#9d9d9d] font-medium hover:text-[#fcfcfc]">FAQ</li>
+        <li class="text-[#9d9d9d] font-medium hover:text-[#fcfcfc]">Learn</li>
       </ul>
     </div>
     <!-- Navbar search box -->
-    <div class="flex gap-9">
-      <div class="flex flex-row gap-4 w-32 h-12 justify-around items-center bg-[#555]">
-        <svg class="bg[#555]"
+    <div class="flex">
+      <div class="flex flex-row w-48 h-14  justify-around items-center bg-[#555]">
+        <svg class="bg[#555] absolute right-[390px]"
             width="20"
             height="17"
             viewBox="0 0 32 35"
@@ -43,15 +46,40 @@
             />
           </svg>
         <div>
-          <input type="search" name="" placeholder="search" id="" class="bg-[#555] placeholder:text-[#fff]  w-20">
+          <input type="search" name="" placeholder="Search Docs" id="" class="bg-[#555] placeholder:text-[#fff] pl-10 hover:border-2 border-white text-sm w-48 h-14">
         </div>
       </div>
       <!--Navbar Download button  -->
-      <div class="flex">
-        <img class="h-7 w-auto" src="./white-down-arrow-png-2.png" alt="">
-        <button>Download</button>
+      <div class="h-14 w-32 flex gap-2 justify-between items-center bg-[#0066b8] text-white">
+        <img class="h-4 pl-4 w-auto" src="./download icon.svg" alt="">
+        <button class="pr-4 font-semibold">Download</button>
       </div>
     </div>
   </nav>
+  <section>
+    <div>
+      <p>📢 Join us for <a href="https://code.visualstudio.com/">VS Code Day</a> Day on April 26th! 🎉</p>
+    </div>
+    <div>
+      <div>
+        <h1>Code editing. <span>Redefined.</span></h1>
+        <p>Free. Built on open source. Runs everywhere.</p>
+        <div>
+          <button>Download for windows <br> Stable Build</button>
+          <button><img class="h-5" src="./white-down-arrow-png-2.png" alt=""></button>
+        </div>
+        <p>
+          <span><a href="https://vscode.dev/">Web</a></span>
+          <span><a href="https://code.visualstudio.com/insiders/">Insiders edition</a></span>
+          <span>or</span>
+          <span><a href="https://code.visualstudio.com/#alt-downloads">other platforms</a></span>
+        </p>
+        <p>By using VS Code, you agree to its <a href="https://code.visualstudio.com/#home-terms">license and privacy statement.</a></p>
+      </div>
+      <div>
+        <img src="./img1.png" alt="">
+      </div>
+    </div>
+  </section>
 </body>
 </html>
