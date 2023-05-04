@@ -1,0 +1,127 @@
+* {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+}
+.grow-list {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.navbar {
+    display: flex;
+    background-color: #000000;
+    color: #fff;
+    height: 60px;
+    width: 1349px;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+    background-color: black;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.list-item::after {
+    position: relative;
+    top: -2px;
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-right: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    margin-left: 2px;
+    opacity: 0;
+}
+.list-item:hover{
+    cursor: pointer;
+}
+.list-item:hover::after{
+    transform: rotate(135deg);
+    margin-left: 10px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.button-small {
+    background-color: #ba0cc5;
+    border: #ba0cc5;
+    border-radius: 4px;
+    height: 30px;
+    width: 115px;
+    color: #fff;
+    margin-top: 12px;
+    margin-left: 250px;
+}
+.button-small:hover {
+    transform: scale(1.07);
+    transition: transform .2s ease-in-out;
+}
+.logo {
+    margin: 12px;
+    margin-left: 80px;
+    height: 35px;
+    width: 100px;
+    background-color: #000000;
+}
+
+.line{
+    margin-top: 12px;
+    margin-left: 45px;
+    width: 1px;
+    height: 40px;
+    background-color: #fff;
+}
+
+.hero{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('./assets/bg.png');
+    height: 800px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.hero-heading {
+    font-size: 82px;
+    color: #ffffff;
+    width: 900px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 100px;
+    margin-top: 160px;
+    margin-left: 30px;
+    font-family: Montserrat;
+}
+
+.hero-description{
+        margin-left: 20px;
+        color: #fff;
+        align-self: center;
+        font-size: 26px;
+        height: 60px;
+        font-weight: 400;
+}
+
+.button-large{
+    background-color: #ba0cc5;
+    border: #ba0cc5;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 25px ;
+    height: 70px;
+    width: 325px;
+    color: #fff;
+}
+.button-large:hover {
+    transform: scale(1.07);
+    transition: transform .2s ease-in-out;
+}
