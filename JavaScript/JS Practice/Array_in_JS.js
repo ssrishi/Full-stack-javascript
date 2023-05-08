@@ -1,15 +1,4 @@
-/*
-=> Data Types
-=> Varibales and typeof
-=> Date
-=> Loops
-=> Conditions
-=> OP
-=> Indexing
-=> Math
-=> Objecy and  Array
-*/
-
+// names = ["rishi", "rahul", "girish","sonalika"]
 // Array In Depth and For of loop
 // Array Methods
 // console.log(names);
@@ -28,11 +17,11 @@
 // names.push('VYOM');
 // console.log(names);
 
-// Slice
+// Slice  (This method will give return a piece of array which you ask it these parameter it includes 1st parameter not second. In this method original array remains the same)
 // let names = ['Hitesh Sir', 'Anurag', 'Surya', 'Anirudh', 'Bipul'];
-// console.log(names.slice(1, 6)); //
+// console.log(names.slice(1, 4));
 
-// Splice
+// Splice  (This Method also return a piece of original array but it will remove that part from original array. But we can also use splice to add elements at the index you start deleting)
 // let fruit = ['Apple', 'Bada Apple', 'Chota Apple', 'Double Apple'];
 // fruit.splice(2, 1, 'Kharab Apple', 'Acha Apple');
 // console.log(fruit);
