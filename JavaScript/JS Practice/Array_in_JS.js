@@ -17,11 +17,11 @@
 // names.push('VYOM');
 // console.log(names);
 
-// Slice  (This method will give return a piece of array which you ask it these parameter it includes 1st parameter not second. In this method original array remains the same)
+// Slice 
 // let names = ['Hitesh Sir', 'Anurag', 'Surya', 'Anirudh', 'Bipul'];
 // console.log(names.slice(1, 4));
 
-// Splice  (This Method also return a piece of original array but it will remove that part from original array. But we can also use splice to add elements at the index you start deleting)
+// Splice
 // let fruit = ['Apple', 'Bada Apple', 'Chota Apple', 'Double Apple'];
 // fruit.splice(2, 1, 'Kharab Apple', 'Acha Apple');
 // console.log(fruit);
