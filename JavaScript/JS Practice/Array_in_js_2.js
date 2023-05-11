@@ -9,8 +9,13 @@ const dc_heros = ["superman", "flash", "batman"]
 // const allHeros = marvel_heros.concat(dc_heros)  concat is the write method to merge ore than one array it will merge and return an array.    
 // console.log(allHeros);
 
+// const all_new_heros = [...marvel_heros, ...dc_heros]  spread operator is also the way to merge two arrays.
+
+// console.log(all_new_heros);
+
+
 
 // const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
-// const real_another_array = another_array.flat(Infinity)  //Flat methhod is use to spread an array. If there are more than one array in an array and you want to ake one array you can use flat. 
+// const real_another_array = another_array.flat(Infinity)  //Flat method return new array with all elements of sub array.
 // console.log(real_another_array);
