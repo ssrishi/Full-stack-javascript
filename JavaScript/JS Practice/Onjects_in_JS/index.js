@@ -10,7 +10,7 @@ const object = {
 // String, number, BigInt, boolean, null, undefined, Symbol these are not onjects
 
 
-// 1st way to declare object
+// 1st way
 // const obj1 ={
 //     car: 'Tata',
 //     Mileage: '30Km/H',
