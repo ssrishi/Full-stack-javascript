@@ -27,3 +27,13 @@ const object = {
 // }
 
 // console.log(obj1);
+
+
+// 2nd way 
+
+// const obj2 = new Object()   //Constructor
+// obj2.company = 'Tata Motors'
+// obj2.car = 'Nexon EV'
+// obj2.price = 'Start from 14.49 lakhs'
+
+
