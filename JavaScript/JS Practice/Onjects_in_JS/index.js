@@ -52,3 +52,26 @@ const object = {
 // We are creating object and want to access properties of helicopter object and we can get access but helicopter object data will stored as a prototype of the new object 
 // console.log(obj3)
 // console.log(Object.getPrototypeOf(obj3)) // now i can see object data.
+
+
+// 4th way
+
+// const obj4 = Object.create({})
+// Object.defineProperty(obj4, 'book',{
+//     get:() => 'physics',
+//     enumerable: true
+// });
+// Object.defineProperty(obj4, 'book2',{
+//     // value: 'physics'
+//     set:(value) =>{
+//         this.book2 = value
+//     },
+//     get:() => {
+//         return this.book2
+//     },
+//     enumerable: true
+// });
+// obj4.book2 = 'bio'
+// console.log(obj4);
+// console.log(obj4.book);
+// console.log(obj4.book2);
