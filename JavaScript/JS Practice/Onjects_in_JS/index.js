@@ -75,3 +75,20 @@ const object = {
 // console.log(obj4);
 // console.log(obj4.book);
 // console.log(obj4.book2);
+
+// 5th way
+const obj5 = {
+    comics: "marvel",
+    hero: '',
+    printcomics: function() {
+        this.hero += 'Ironman'
+        console.log(this);
+        return this;
+    },
+    printacomic: () => {  // arrow function does not have access to the this keyword
+        console.log(this);
+    }
+}
+// console.log(obj5.printcomic());
+
+console.log(obj5.printcomics().printcomics().printcomics());  // chaining in JavaScript.
