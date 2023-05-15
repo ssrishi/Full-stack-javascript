@@ -37,3 +37,18 @@ const object = {
 // obj2.price = 'Start from 14.49 lakhs'
 
 
+
+
+
+// 3rd Way
+// const helicopter = {
+//     fly: true,
+//     cordinate: Math.random() + 2
+// }
+
+// Object.create() creates a new object using an exsisting object as the prototype of the newly object
+
+// const obj3 = Object.create(helicopter) 
+// We are creating object and want to access properties of helicopter object and we can get access but helicopter object data will stored as a prototype of the new object 
+// console.log(obj3)
+// console.log(Object.getPrototypeOf(obj3)) // now i can see object data.
