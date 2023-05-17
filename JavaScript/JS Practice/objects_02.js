@@ -38,3 +38,15 @@
 // obj2.marks = 97;
 
 // console.log(obj2.marks);
+
+
+// 4) Object.keys() => It static method returns an array of a given object's own enumerable string-keyed property names.
+
+// const obj3 = {
+//     maths: 85,
+//     science: 67,
+//     english: 56
+// }
+
+// const array_output = Object.keys(obj3)
+// console.log(array_output);
