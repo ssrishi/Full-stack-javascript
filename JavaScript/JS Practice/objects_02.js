@@ -23,3 +23,18 @@
 //   };
 // const array_output = Object.entries(obj1)  // The Output will in array form
 // console.log(array_output);
+
+
+// 3) Object.freeze()
+// The Object.freeze() static method freezes an object. Freezing an object prevents extensions and makes existing properties non-writable and non-configurable 
+
+// const obj2 = Object.create({})
+// obj2.marks = 87;
+
+// console.log(obj2.marks);
+
+// Object.freeze(obj2)
+
+// obj2.marks = 97;
+
+// console.log(obj2.marks);
