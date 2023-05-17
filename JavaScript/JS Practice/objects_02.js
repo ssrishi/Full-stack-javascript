@@ -50,3 +50,15 @@
 
 // const array_output = Object.keys(obj3)
 // console.log(array_output);
+
+
+// 5) Object.values() static method returns an array of a given object's own enumerable string-keyed property values.
+
+const obj3 = {
+    maths: 85,
+    science: 67,
+    english: 56
+}
+
+const array_output = Object.values(obj3)
+console.log(array_output);
