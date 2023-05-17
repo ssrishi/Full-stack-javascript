@@ -13,3 +13,13 @@
 
 // const output_obj = Object.assign(target,source) 
 // console.log(output_obj);
+
+
+// 2) The Object.entries() static method returns an array of a given object's own enumerable string-keyed property key-value pairs.
+
+// const obj1 = {
+//     a: 'somestring',
+//     b: 42
+//   };
+// const array_output = Object.entries(obj1)  // The Output will in array form
+// console.log(array_output);
