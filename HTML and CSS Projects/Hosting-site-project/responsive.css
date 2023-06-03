@@ -1,0 +1,350 @@
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .header{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .header>img{
+        max-width: 27%;
+    }
+    .list{
+        gap: 2vw;
+    }
+    .list-item{
+        font-size: 90%; 
+    }
+    .login-btn{
+        padding: 2.5vw 7vw;
+    }
+    /* hero section */
+    .hero{
+        padding-top: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-left{
+        width: 90%;
+    }
+    .hero-left>h1{
+        width: 95%;
+        text-align: center;
+        font-size: 6vw;
+        /* line-height: 7vw; */
+        padding: 0 1rem;
+    }
+    .hero-left>p{
+        width: 95%;
+        text-align: center;
+        padding: 0 .5rem;
+        font-size: 3vw;
+        word-spacing: 1.5px;
+    }
+    .hero-right>img{
+        width: 80%;
+    }
+    .hero-btns,.hero-right{
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-btn1, .hero-btn2{
+        padding: 2.5vw 7vw;
+    }
+    .hero-right>img{
+        padding: 2.5rem 0;
+        max-width: 100%;
+    }
+    /* logo section */
+    .logo-section>div{
+        gap: 1.5rem;
+        padding: 2rem .5rem;
+    }
+
+    /* Service1 Section */
+    .service1-section{
+        padding: 3rem .5rem;
+    }
+    .service1-section-upperdiv>h2{
+        font-size: 6vw;
+    }
+    .service1-section-upperdiv>p{
+        font-size: 3.5vw;
+        width: 75%;
+    }
+    .service1-section-lowerdiv{
+        flex-direction: column;
+
+    }
+    .fast-svg,.signal-svg,.heart-svg{
+        min-height: 16rem;
+        min-width: 75vw;
+        max-width: 76vw;
+        max-height: 18rem;
+        margin: 0;
+    }
+    .fast-svg>strong, .signal-svg>strong, .heart-svg>strong{
+        text-align: center;
+    }
+    .fast-svg>p,.signal-svg>p,.heart-svg>p{
+        width: 60vw;
+    }
+    .service2-section{
+        margin: 0;
+        align-items: center;
+    }
+    .service2-heading>h2{
+        font-size: 5vw; 
+        width: 90%;
+        padding-left: 10%;
+        text-align: center;
+    }
+    .service2-features{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .left-feature,.left-feature_first{
+        width: 100%;
+        height: 17vw;
+        font-size: 2.5vw;
+        padding: 0px 1rem;
+        gap: 4vw;
+    }  
+    .left-feature>img, .left-feature_first>img{
+        max-width: 8vw;
+    } 
+    .right-features{
+        height: 100%;
+        width: 95%;
+        gap: .7rem;
+        padding: 1.5rem 0;
+    }
+    .right-feature{
+        width: 90%;
+        height:15vw;
+        font-size: 2.5vw;
+        gap: 0.8rem;
+        scroll-behavior: none;
+    }
+    /* pricing section */
+    .pricing-section-heading{
+        gap: .1rem;
+        justify-content: space-around;
+    }
+    .pricing-section-heading>h2{
+        font-size: 6vw;
+        width: 75%;
+    }
+    .arrows{
+        height: 17vw;
+    }
+    .packages{
+        flex-direction: column;
+    }
+    .package-price >h2{
+        font-size:2.5rem;
+    }
+    .review-section{
+        padding-top: 0;
+    }
+    .review-section-heading{
+        flex-direction: column;
+    }
+    .review-section-heading>h3{
+        width: 70%;
+        text-align: center;
+        padding: 1rem;
+        font-size: 2.3rem;
+        line-height: 2.5rem;
+    }
+    .review-section-heading>p{
+        width: 80%;
+        padding:0 3rem ;
+        text-align: center;
+        font-size: 1.09rem;
+    }
+    .review-section-reviews{
+        flex-direction: column;
+        align-items: center;
+    }
+    .first-review,.second-review{
+        width: 80vw;
+        height: 16rem;
+        margin-left: 0rem;
+        border-right: 1px solid;
+    }
+    .first-review > p,.second-review>p {
+        width: 67vw;
+        font-size: .9rem;
+        line-height: 1.2rem;
+    }
+    .line{
+        display: flex;
+        align-items: center;
+        margin-left: 2.5rem;
+    }
+
+    .signup-section{
+        margin-top: 4rem;
+    }
+    .signup-section > h2{
+        margin: 3rem 0 0 0;
+        width: auto;
+        font-size: 1.9rem;
+        color: #f1f1f1;
+        text-align: center;
+        padding: 1rem 1.8rem;
+    }
+    .signup-form {
+        flex-direction: column;
+        padding: 2rem 2rem;
+        height: auto;
+        width: auto;
+        margin-top: 2rem;
+    }
+    #name, #email, #password{
+        padding: 1rem 3rem 1rem 2rem;
+        width: auto;
+        border-radius: 40px;
+    }
+    .footer-text {
+        gap: 4rem;
+        flex-direction: column;
+    }
+    .left-footer{
+        gap: 8rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-footer{
+        gap: 5rem;
+        justify-content: center;
+        margin-right: 0;
+
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px){
+    .list-item{
+        font-size: 100%; 
+    }   
+}
+
+@media screen and (min-width: 601px) and (max-width: 799px){
+    .hero-left>p{
+        font-size: 2.5vw;
+    }
+    .hero-right>img{
+        padding: 2.5rem 0;
+        max-width: 90%;
+    }
+    .first-review,.second-review{
+        height: 40vw;
+    }
+    .first-review > p,.second-review>p{
+        width: 72vw;
+    }
+}
+/* completed till 800px */
+@media screen and (min-width: 801px) and (max-width: 1000px){
+    .header{
+        gap: 10vw;
+    }
+    .list-item{
+        font-size: 1.7vw;
+    }
+    .list{
+        gap: 1rem;
+    }
+    .hero{
+        padding-left: 1rem;
+    }
+    .hero-left{
+        margin-bottom: 2rem;
+    }
+    .hero-left>h1{
+        font-size: 4.5vw;
+        width: 41.5vw;
+    }
+    .hero-left>p{
+        width: 40vw;
+    }
+    .logo-section > div{
+        padding: 2rem 1rem;
+    }
+    service1-section-upperdiv > h2 {
+        font-size: 2.5rem;
+    }
+    .service1-section-upperdiv > p{
+        width: 48vw;
+    }
+    .service1-section-lowerdiv {
+        gap: 1.5rem;
+    }
+    .fast-svg,.signal-svg,.heart-svg{
+        width: 30vw;
+        height: 35vw;
+    }
+    .fast-svg>p,.signal-svg>p,.heart-svg>p{
+        width: 30vw;
+        padding: 0 .5rem;
+    }
+    .service2-section{
+        align-items: center;
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+    .pricing-section-heading{
+        gap: 0;
+        margin-top: 3rem;
+    }
+    .arrows{
+        margin-top: 4rem;
+        height: 15vw;
+    }
+    .pricing-section-heading > h2{
+        width: 78vw;
+    }
+    .packages{
+        flex-direction: column;
+    }
+    .rpackage, .spackage, .ppackage {
+        padding: 3rem 3rem 2rem 3rem;
+    }
+    .first-review{
+        margin-left: 3rem;
+    }
+    .first-review,.second-review{
+        height: 24rem;
+    }
+    .first-review > p,.second-review > p{
+        font-size: 1.3rem;
+        width: 45vw;
+    }
+    .line{
+        margin-left: 3rem;
+    }
+    .signup-section>h2{
+        font-size: 2.5rem;
+        width: 85vw;
+    }
+    .signup-form{
+        padding: 1.5rem .5rem;
+    }
+    #name, #email, #password{
+        padding: 1.5rem .5rem;
+    }
+    .footer-text {
+        gap: 5rem;
+    }
+    .left-footer {
+        gap: 7rem;
+    }
+    .right-footer {
+        gap: 4rem;
+    }
+    .signup-section::after{
+        width: 95%;
+    }
+    .footer-logo::before{
+        width: 95vw;
+    }
+}
