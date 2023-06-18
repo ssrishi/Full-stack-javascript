@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1920px;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.section1{
+    background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.7)), url(./Assets/Photos/futuristic-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.navbar{
+    justify-content: space-between;
+    padding: 5% 5%;
+}
+.logo{
+    width: 7rem;
+    display: flex;
+    margin-right: 2.5vw;
+}
+.list{
+    list-style: none;
+    gap: 2.5vw;
+}
+.list-item{
+    display: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.list-item:hover{
+    color: #f4694c;
+}
+
+.btns{
+    display: none;
+    gap: 1rem;
+}
+.signin-btn{
+    color: #f0f0f0;
+    background: none;
+}
+.signin-btn:hover,.LMbtn:hover{
+    border: 1px solid #f4694c;
+}
+.signup-btn{
+    background: #f4694c;
+    color: #ffffff;
+}
+.signup-btn:hover,.GSbtn:hover{
+    border: 1px solid #f4694c;
+    background-color: black
+}
+.hamburger{
+    gap: 2px;
+}
+.hamburger>div{
+    width: 20px;
+    height: 2px;
+    border-radius: 2px;
+    background: #f4694c;
+}
+
+/* hero section */
+.hero{
+    margin: 2rem 0;
+}
+.left-hero{
+    padding: 0 4%;
+    gap: 2rem;
+}
+.left-hero>h1{
+    color: #ffffff;
+    max-width:70%;
+    text-align: left;
+    font-size: 6vw;
+}
+.left-hero>p{
+    color: #908f90;
+    font-size: 2.8vw;
+    width: 70%;
+    line-height: 150%;
+    letter-spacing: 1px;
+}
+.hero-btn{
+    gap: 5%;
+}
+.GSbtn{
+    background: #f4694c;
+    color: #ffffff;
+    border: 1px solid #f4694c;
+}
+.LMbtn{
+    color: #f4694c;
+    border:1px solid #ffffff;
+    background: none;
+    color: #ffffff;
+}
+.right-hero{
+     padding: 5rem 0;
+     gap: 2rem;
+}
+.playbtn{
+    cursor: pointer;
+}
+.dash{
+    margin-top: .5rem;
+    margin-right:1rem ;
+    height: 2px;
+    width: 32px;
+    background: #ffffff;
+}
+.right-hero>div>p{
+    color: #ffffff;
+    width: 47vw;
+    line-height: 6vw;
+    font-size: 5vw;
+}
+.right-arrow{
+    width: 17%;
+    margin-top: 2rem;
+    margin-left: 7%;
+    cursor: pointer;
+
+}
+.games-section{
+    margin: 0 0 2rem 0 ;
+}
+.games-section>h2{
+    text-align: center;
+    font-size: 5vw;
+    padding: 2rem;
+}
+.games{
+    gap: 15px;
+}
+.games>div{
+    gap: 15px;
+}
+.game1:hover,.game2:hover{
+    transform: scale(.9);
+    transition-duration: .35s;
+}
+.game1,.game2{
+    height: 300px;
+    width: 350px;
+    background-image: url(./Assets/Photos/image\ 2.png);
+    background-position: 80%;
+    background-size: 605px 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.game1:nth-child(2){
+    background-image: url(./Assets/Photos/image\ 4.png);
+    background-position: 50%;
+}
+.game2:nth-child(1){
+    background-image: url(./Assets/Photos/image\ 3.png);
+    background-position: 50%;
+}
+.game2:nth-child(2){
+    background-image: url(./Assets/Photos/Rectangle\ 56.png);
+    background-position: 50%;
+}
+.head{
+    width: 100%;
+    padding:10px;
+    position: absolute;
+    bottom: 0;
+    background: hsla(0 0% 80% .5);
+    backdrop-filter: blur(50px);
+}
+.head>div:nth-child(2)>button:hover{
+    background: none;
+    border: 1px solid #f4694c;
+}
+.details{
+    gap: 7px;
+    width: 57%;
+}
+.details>strong{
+    color: #ffffff;
+    font-size: 1.19rem;
+}
+.details>small{
+    color: #908f90;
+}
+.details>div{
+    gap: 2px;
+}
+.details>div>img{
+    width: 10%;
+}
+.details>div{
+    margin-top: 10px;
+}
+
+.img>img{
+    width: 80%;
+}
+.new-game-details{
+    gap: 3vw;
+}
+.new-game-details>h2{
+    width: 90%;
+    padding-top: 2rem;
+    font-size: 6vw;
+    text-align: center;
+}
+.new-game-details>p{
+    width: 90%;
+    font-size: 3vw;
+    text-align: center;
+    color: #908f90;
+    line-height: 4vw;
+    letter-spacing: .9px;
+}
+.new-game-details>div{
+    gap: 2vw;
+}
+.new-game-details>div>button:nth-child(1):hover {
+    background: none;
+    border: 1px solid #f4694c;
+    color: #f4694c;
+}
+.learn-more-btn{
+    color: #f4694c;
+    border: #f4694c 1px solid;
+    background: #ffffff;
+}
+.learn-more-btn:hover{
+    background-color: #f4694c;
+    color: #ffffff;
+}
+/* Recommended section */
+.recommend-section{
+    margin: 5rem 0;
+}
+.recommend-section-detail{
+    justify-content: space-between;
+    padding: 0 5% 10%;
+}
+.recommend-section-detail>h2{
+    font-size: 4vw;
+    width: 60%;
+}
+.recommend-games-details>button:hover{
+    background: none;
+    border: 1px solid #f4694c;
+    color: #f4694c;
+}
+.arrows{
+    gap: 5px;
+}
+.leftArrow{
+    padding: 14% 7%;
+    border: 1px solid none;
+    width: 40px;
+    background: #f2c8c0;
+}
+.rightArrow{
+    padding: 14% 7%;
+    border: 1px solid none;
+    width: 40px;
+    background:#f4694c;
+}
+.all-games{
+    gap: 40px;
+}
+.all-games1{
+    gap: 40px;
+}
+.recommend-games{
+    gap: 20px;
+}
+.recommend-games-img>img{
+    max-width: 18rem;
+}
+.recommend-games-details{
+    gap: 1rem;
+}
+.recommend-games-details>h2{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 90%;
+}
+.recommend-games-details>p{
+    /* font-size: .8rem; */
+    text-align: center;
+    color: #908f90;
+    width: 90%;
+}
+.recommend-games-details>span{
+    color: #f4694c;
+    font-weight: 600;
+}
+
+
+
+.Game-of-the-year{
+    background-color: #000;
+    position: relative;
+    gap: 2rem;
+    pad: 1.5rem;
+}
+.Game-of-the-year-details{
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.Game-of-the-year-details>h2{
+    font-size: 1.7rem;
+    width: 40vw;
+    text-align: center;
+    color: #ffffff;
+}
+@media screen and (max-width:451px) {
+    .Game-of-the-year-details>h2{
+        font-size: 1.1rem;
+        width: 50vw;    
+    }    
+}
+.Game-of-the-year-details>p{
+    font-size: .6rem;
+    width: 70vw;
+    text-align: center;
+    color: #908f90;
+}
+.Game-of-the-year-details>img{
+    width: 100%;
+    padding: 0 0 0 1.5rem;
+}
+.Game-of-the-year-images{
+    gap: 10px;    
+    position: relative;
+
+}
+.Game-of-the-year-images>div:nth-child(1){
+    width: 35%;    
+    position: relative;
+}
+.Game-of-the-year-images>div>img{
+    width: 100%;
+}
+.Game-of-the-year-images {
+    position: relative;
+    
+}
+.Game-of-the-year-images > div:nth-child(2) {
+    width: 25%;
+    margin-top: 4rem;
+}
+.Game-of-the-year-images > div:nth-child(3) {
+    width: 25%;
+    margin-top: 8rem;
+}
+.gamer{
+    margin: 4rem 0 0 0 ;
+    background-image: url(./Assets/Photos/Rectangle\ 606.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.gamer>div{
+    padding: 7% 0;
+    gap: 1rem;
+    backdrop-filter:brightness(40%);
+}
+.gamer>div>h2{
+    color: #ffffff;
+    font-size: 5vw;
+    width: 67%;
+    text-align: center;
+}
+
+.gamer>div>p{
+    color: #908f90;
+    font-size: .6rem;
+    width: 300px;
+    text-align: center; 
+    line-height: 150%;
+    font-weight: 600;
+    letter-spacing: .09rem;
+}
+.gamer>div>button{
+    padding: .7rem 1.5rem; 
+}
+.gamer>div>button:hover{
+    background: none;
+    border: 1px solid #f4694c;
+    color: #ffffff;
+}
+
+
+/* Footer Section */
+.footer{
+    background: #000;
+    padding: 2rem 0 1rem 0;
+    border-bottom:1px solid #908f90 ;
+}
+.social-media-contact{
+    gap: 1rem;
+}
+.social-media-contact>p{
+    color: #908f90;
+    width: 200px;
+    font-size: .9rem;
+    margin-left: 1rem;
+}
+.social-media-contact>div{
+    gap: 1rem;
+}
+.footer-list{
+    gap: 3.3rem;
+    margin-top: 4rem;
+}
+.footer-list>div>ul{
+    list-style: none;
+    color: #908f90;
+    font-size: .9rem
+}
+
+.footer-list>div>ul>li:first-child{
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+.footer-list>div>ul{
+    gap: 1rem;
+}
+.footer-list>div>ul>li{
+    cursor: pointer;
+    font-size: 1rem;
+}
+.footer-list>div>ul>li:hover{
+    color: #f0f0f0;
+}
+.footer-bottom{
+    height: 80px;
+    background: #000611;
+}
