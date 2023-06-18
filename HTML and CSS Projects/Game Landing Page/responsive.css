@@ -1,0 +1,407 @@
+@media screen and (min-width : 500px) and (max-width : 799px) {
+    .left-hero > h1{
+        font-size: 5.5vw;
+        width :62%;
+    }
+    .left-hero>p{
+        font-size:2.3vw;
+        width: 60%;
+    } 
+    .img>img{
+        width: 70%;
+    }
+    
+    .all-games1{
+        flex-direction: row;
+    }
+    .recommend-games-img>img{
+        width: 11.5rem;
+        height: 14rem;
+    }
+    .recommend-games-details > h2{
+        font-size: 2.5vw;
+    }
+    .recommend-games-details > p
+    {
+        font-size: .8rem;
+        width: 40vw;
+    }
+    .new-game-details > h2{
+        font-size: 5vw;
+    }
+    .new-game-details > p{
+        font-size: 2.2vw;
+        line-height: 2.8vw;
+        width: 80%;
+    }
+    .gamer>div>button{
+        padding: .9rem 2rem; 
+    }
+}
+
+@media screen and (min-width : 800px) and (max-width : 1000px){
+    .navbar{
+        justify-content: space-between;
+        padding: 4% 5%;
+    }
+    .logo{
+        margin-right: 40px;
+    }
+    .list-item{
+        display: flex;
+        color: #ffffff;
+        font-size: 1.5vw;
+    }
+    .btns{
+        display: flex;
+        gap: .5rem;
+    }
+    .hamburger{
+        display: none;
+    }
+    .hero{
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 2rem 0;
+        padding: 0 5%;
+    }
+
+    .left-hero{
+        justify-content: start;
+        padding: 0;
+    }
+    .left-hero>h1{
+        font-size: 3.5vw;
+        width: 36vw;
+        line-height: 5vw;
+        max-width: none;
+    }
+    .left-hero>p{
+        font-size: .7rem;
+        width: 24rem;
+    }
+
+    .playbtn{
+        width: 4rem;
+    }
+
+    .dash{
+        margin-top: 3.8rem;
+    }
+
+    .right-hero>div>p{
+        font-size: 2vw;
+        width: 20vw;
+        line-height: 4vw;
+        padding-top: 3rem;
+    }
+    
+    .right-arrow{
+        width: 14%;
+    }
+    .games-section > h2 {
+        font-size: 3vw;
+        width: 52vw;
+      }
+    .games>div{
+        flex-direction: row;
+    } 
+    .new-game{
+        flex-direction: row;
+        align-items: end;
+        justify-content: center;
+        gap: 3vw;
+        padding: 3rem 0;
+    } 
+    .img>img{
+        max-width: 50vw;
+        height: 37vw;
+    }
+    .new-game-details{
+        align-items: baseline;
+    }
+    .new-game-details>h2{
+        font-size: 2.8vw;
+        text-align: left;
+        width: 34vw;
+    }
+    .new-game-details>p{
+        font-size: 1.1vw;
+        width: 32vw;
+        text-align: left;
+        line-height: 2.5vw;
+    }
+    .all-games1,.all-games1>div{
+        flex-direction: row;
+    }
+    .recommend-games-details{
+        align-items: baseline;
+    }
+    .recommend-games-img>img{
+        width: 12rem;
+        height: 15rem;
+    }
+    .recommend-games-details > h2{
+        font-size: 2.5vw;
+        width: 20vw;
+        text-align: left;
+    }
+    .recommend-games-details > p
+    {
+        font-size: .8rem;
+        width: 20vw;
+        text-align: left;
+    }
+    .Game-of-the-year-details>h2{
+        width: 17rem;
+    }
+    .Game-of-the-year-details>p{
+        width: 45vw;
+    }
+    .Game-of-the-year-images > div:nth-child(2) {
+        margin-top: 6rem;
+    }
+    .Game-of-the-year-images > div:nth-child(3){
+        margin-top: 14rem;
+    }
+    .gamer > div {
+        padding: 7% 26vw;
+        gap: 1rem;
+        backdrop-filter: brightness(40%);
+    }
+    .gamer > div > h2{
+        font-size: 3vw;
+        width: 34vw;
+    }
+    .gamer>div>button{
+        padding: .9rem 2rem; 
+    }
+    .footer{
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 0 5% ;
+    }
+    .social-media-contact{
+        margin-top: 4rem;
+    }
+    .footer-list{
+        gap: 3rem;
+    }
+    .footer-list > div > ul > li{
+        font-size: 1.5vw;
+    }
+}
+@media screen and (min-width: 1001px) {
+    .navbar{
+        justify-content: space-between;
+        padding: 4% 5%;
+    }
+    .logo{
+        margin-right: 40px;
+    }
+    .list-item{
+        display: flex;
+        color: #ffffff;
+        font-size: 1.2vw;
+    }
+    .btns{
+        display: flex;
+        gap: .5rem;
+    }
+    .hamburger{
+        display: none;
+    }    
+    .hero{
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 2rem 0;
+        padding: 0 5%;
+    }
+
+    .left-hero{
+        justify-content: start;
+        padding: 0;
+    }
+    .left-hero>h1{
+        font-size: 3.5vw;
+        width: 36vw;
+        line-height: 5vw;
+        max-width: none;
+    }
+    .left-hero>p{
+        font-size: .7rem;
+        width: 24rem;
+    }
+
+    .playbtn{
+        width: 4rem;
+    }
+
+    .dash{
+        margin-top: 4.3rem;
+    }
+
+    .right-hero>div>p{
+        font-size: 2vw;
+        width: 20vw;
+        line-height: 4vw;
+        padding-top: 3rem;
+    }
+    .right-arrow{
+        width: 14%;
+    }
+    .games-section > h2 {
+        font-size: 3vw;
+        width: 52vw;
+      }
+    .games,.games>div{
+        flex-direction: row;
+    }
+    .games{
+        justify-content: space-between;
+    } 
+    .game1,.game2{
+        height: 250px;
+        width: 15.2rem;
+    }
+    .details > strong{
+        font-size: .8rem;
+    }
+    .head>div:nth-child(2)>button{
+        padding:.9rem .8rem ;
+    }
+    .new-game{
+        flex-direction: row;
+        align-items: end;
+        justify-content: flex-start;
+        padding: 3rem 1rem  ;
+    } 
+    .img>img{
+        max-width: 42vw;
+        height: 25vw;
+    }
+    .new-game-details{
+        align-items: baseline;
+        gap: 2vw;
+    }
+    .new-game-details>h2{
+        font-size: 2.5vw;
+        text-align: left;
+        width: 28vw;
+    }
+    .new-game-details>p{
+        font-size: 1.1vw;
+        width: 41vw;
+        text-align: left;
+        line-height: 2.5vw;
+    }
+    .all-games1,.all-games1>div{
+        flex-direction: row;
+    }
+    .recommend-games-details{
+        align-items: baseline;
+        gap: 1.3rem;
+    }
+    .recommend-games-img>img{
+        width: 12rem;
+        height: 15rem;
+    }
+    .recommend-games-details > h2{
+        font-size: 2vw;
+        width: 23vw;
+        text-align: left;
+        line-height: 2rem;
+    }
+    .recommend-games-details > p
+    {
+        font-size: .8rem;
+        width: 23vw;
+        text-align: left;
+        line-height: 1.5rem;
+    }
+    .Game-of-the-year {
+        background-color: #000;
+        position: relative;
+        gap: 2rem;
+    }
+    .Game-of-the-year-details{
+        position: relative;
+    }
+    .Game-of-the-year-details > h2 {
+        font-size: 2.7rem;
+        width: 25rem;
+        margin-bottom: 4rem;
+    }
+    .Game-of-the-year-details > p {
+        font-size: .9rem;
+        width: 29rem;
+        text-align: left;
+        margin-left: 17rem;
+        line-height: 1.5rem;
+    }
+    .Game-of-the-year-details > img {
+        width: 65%;
+        margin-left: 21rem;
+    }
+    .Game-of-the-year-images > div > img {
+        width: 90%;
+    }
+    .Game-of-the-year-images {
+        position: relative;
+        top: -184px;
+    }
+    .Game-of-the-year-images > div:nth-child(1) > img,
+    .Game-of-the-year-images > div:nth-child(2) > img,
+    .Game-of-the-year-images > div:nth-child(3) > img{
+        position: unset;
+    }
+    .Game-of-the-year-images > div:nth-child(2) {
+        width: 25%;
+        margin-top: 8rem;
+    }
+    .Game-of-the-year-images > div:nth-child(3) {
+        width: 25%;
+        margin-top: 16rem;
+    }
+    .gamer{
+        margin: 0;
+        gap: 1rem;
+    }
+    .gamer > div {
+        padding: 7% 26vw;
+        gap: 2rem;
+    }
+    .gamer > div > h2{
+        font-size: 3vw;
+        width: 34vw;
+    }
+    .gamer > div > p{
+        width: 316px;
+    }
+    .gamer>div>button{
+        padding: .9rem 2rem; 
+    }
+    .footer{
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        padding: 0 5% ;
+        gap: 3rem;
+        padding-bottom: 2rem;
+    }
+    .social-media-contact{
+        margin-top: 4rem;
+    }
+    .social-media-contact > p {
+        width: 182px;
+        font-size: .9rem;
+        line-height: 1.5rem;
+    }
+    .footer-list{
+        gap: 9vw;
+    }
+    .footer-list > div > ul > li{
+        font-size: .9rem;
+    }
+}
