@@ -1,0 +1,23 @@
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.btn{
+    padding: .9rem 2rem;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s;
+    font-size: .9rem;
+}
+.btncolor{
+    background: #f4694c;
+    color: #ffffff;
+}
