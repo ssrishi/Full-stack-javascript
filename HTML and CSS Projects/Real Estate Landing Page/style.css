@@ -66,3 +66,19 @@
     letter-spacing: 1px;
     word-spacing: 2px;
 }
+.logos{
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    border-radius: 1rem;
+    gap: 80px;
+    padding: 6% 4%;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+.logos>img{
+    width: 10%;
+}
