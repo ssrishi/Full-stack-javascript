@@ -1,0 +1,59 @@
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.btns{
+    padding: .9rem 3.1rem;
+    font-size: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+    background: #6563e9;
+    color: #ffffff;
+    border: 1px solid #6563e9;
+}
+.btns:hover{
+    background-color: #ffffff;
+    color: #6563e9;
+    transition: ease-in-out .3s;
+}
+.font{
+    font-size: 1.5rem;
+}
+.clr{
+    color: #6563e9;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.btn{
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    background-color: #6563e9;
+    border: 1px solid #6563e9;
+    color:#ffffff;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: #6563e9;
+    transition: ease-in-out .3s;
+}
+.Subscribe{
+    background-color: #ffffff;
+    color: #6563e9;
+    font-size: 1.2rem;
+}
+.Subscribe:hover{
+    background-color:#5452d1;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    transition: ease-in-out .3s;
+}
