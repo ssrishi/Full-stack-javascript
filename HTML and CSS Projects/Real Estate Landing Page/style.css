@@ -240,3 +240,54 @@
 .right{
     padding: 0 0 4rem 10rem;
 }
+.section4{
+    padding: 2rem 3%;
+    background-color: #f5f7fa;
+}
+.subscription-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    background-color: #6563e9;
+    padding: 3rem 5%;
+    border-radius: 40px;
+}
+.subscription-part>h2{
+    font-size: 5vw;
+    width: 70vw;
+    text-align: center;
+    color: #ffffff;
+}
+.subscription-part>p{
+    font-size: 1.5vw;
+    width: 55vw;
+    text-align: center;
+    color: #ded7ea;
+}
+.subscription-part>div{
+    gap: 2rem;
+}
+.subscription-part>div>div{
+    position: relative;
+}
+.subscription-part>div>div{
+    background-color: #5452d1;
+    border-radius: 50px;
+}
+#email{
+    padding: .7rem 1rem 1rem 4rem;
+    border-radius: 30px;
+    position: relative;
+    background-color: #5452d1;
+    font-size:1rem ;
+    width: 30vw;
+    border: 1px solid #5452d1;
+    color: #d4d6d8;
+}
+.subscription-part>div>div>img{
+    position: absolute;
+    left: 5%;
+    top: 20%;
+}
