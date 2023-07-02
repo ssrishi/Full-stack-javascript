@@ -184,3 +184,59 @@
 .estate>div>.houses:nth-child(9)>div:nth-child(1){
     background-image: url(./Photos/cardImage9.png);
 }
+.section3{
+    background-color: #f5f7fa;
+
+}
+.feature-house{
+    justify-content: space-between  ;
+}
+.feature-house-img{
+    position: relative;
+    padding-top: 4rem;
+}
+.feature-house-img>div:nth-child(1){
+    position: relative;
+    height: 40vw;
+    width: 42vw;
+}
+.feature-house-img>div:nth-child(1)>img{
+    width: 105%;
+    height: 90%;
+}
+.feature-house-img>div:nth-child(2){
+    height: 32vw;
+    width: 31.5vw;
+    background-image: url(./Photos/featuresImage1.png);
+    background-position:center;
+    background-size: cover;
+    position: absolute;
+    top: 0%;
+    right:3.9%;
+    border-radius: 30px;
+}
+.feature-house-details{
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 4rem 4rem 0;
+
+}
+.feature-house-details>h2{
+    font-size: 4vw;
+    width: 34vw;
+    line-height: 6vw;
+    color: #2d2f2f;
+}
+.feature-house-details>p{
+    font-size: 1.2vw;
+    width: 30vw;
+    color: #90949b;
+}
+.feature-house-img:nth-child(2)>div:nth-child(2){
+    background-image: url(./Photos/featuresImage2.png);
+    left: 8.9%;
+}
+.right{
+    padding: 0 0 4rem 10rem;
+}
