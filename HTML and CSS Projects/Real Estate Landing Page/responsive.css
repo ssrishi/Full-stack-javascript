@@ -1,0 +1,140 @@
+@media screen and (min-width:300px) and (max-width:799px) {
+    .logo>img{
+        width: 60%;
+    }
+    .nav-list{
+        display: none;
+    }
+    .hero > h1{
+        width: 57vw;
+        line-height: 7vw;
+        font-size: 5vw;
+    }
+    .hero > p {
+        font-size: 2.5vw;
+        width: 51vw;
+        line-height: 4vw;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+    }
+    .logos{
+        gap: 60px;
+    }
+    .estate > h1 {
+        font-size: 8vw;
+        width: 75.5vw;
+        line-height: 11vw;
+    }
+    .houses{
+        margin: 0 10%;
+    }
+    .houses:nth-child(n){
+        top: 0;
+        bottom: 0;
+        margin: 0 10%;
+
+    }   
+    .estate > div > .houses > div:nth-child(2){
+        padding: 1.5rem 1rem;
+    }
+    .font{
+        font-size: 1rem;
+    }
+    .section3>div:nth-child(2){
+        flex-direction: column-reverse;
+    }
+    .feature-house{
+        flex-direction: column;
+    }
+
+    .feature-house-img > div:nth-child(1){
+        width: auto;
+        height: auto;
+    }
+    .feature-house-img > div:nth-child(1) > img{
+        width: 100%;
+    }
+    .feature-house-img > div:nth-child(2){
+        width: 70%;
+        height: 70%;
+        top: 5%;
+        right: 8.5%;
+    }
+    .feature-house-details{
+        align-items: center;
+        padding: 0 0 4rem 0;
+    }
+    .feature-house-details > h2 {
+        font-size: 5vw;
+        width: 67vw;
+    }
+    .feature-house-details > p {
+        font-size: 2.5vw;
+        width: 55vw;
+    }
+    .subscription-part > h2 {
+        font-size: 5vw;
+        width: 70vw;
+    }
+    .subscription-part > p {
+        font-size: 2.5vw;
+        width: 55vw;
+    }
+    .subscription-part > div{
+        flex-direction: column;
+        align-items: center;
+    }
+    #email{
+        width: 70vw;
+        padding: 1rem 1rem 1rem 3rem;
+    }
+    .section5{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .left-footer {
+        gap: 5vw;
+        margin: 0;
+        align-items: center;
+    }
+    .left-footer > div:nth-child(3) > p {
+        width: 70vw;
+    }
+    .right-footer {
+        gap: 7vw;
+        align-items: center;
+        justify-content: center;
+        margin: 4rem 0;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:799px) {
+    #email{
+        width: 50vw;
+    }
+}
+@media screen and (min-width:800px) and (max-width:899px){
+    .section5{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .left-footer {
+        gap: 5vw;
+        margin: 0;
+        align-items: center;
+    }
+    .left-footer > div:nth-child(3) > p {
+        width: 70vw;
+    }
+    .right-footer {
+        gap: 7vw;
+        align-items: center;
+        justify-content: center;
+        margin: 4rem 0;
+    }
+    .estate > h1{
+        width: 45vw;
+    }
+}
