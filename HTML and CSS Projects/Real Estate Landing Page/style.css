@@ -42,6 +42,7 @@
 .list-item:hover{
     color: #6563e9;
 }
+/* Hero Section */
 .hero{
     display: flex;
     flex-direction: column;
@@ -66,6 +67,7 @@
     letter-spacing: 1px;
     word-spacing: 2px;
 }
+/* logos section */
 .logos{
     background-color: #ffffff;
     display: flex;
@@ -240,6 +242,7 @@
 .right{
     padding: 0 0 4rem 10rem;
 }
+
 .section4{
     padding: 2rem 3%;
     background-color: #f5f7fa;
@@ -291,6 +294,8 @@
     left: 5%;
     top: 20%;
 }
+
+
 .section5{
     justify-content: space-between;
     padding: 5rem 5% 5rem;
