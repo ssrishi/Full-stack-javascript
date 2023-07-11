@@ -14,3 +14,7 @@ console.log(`Value of variable ${Y} And Type of variable ${typeof(Y)}`);
 // Undefined
 let role = undefined;
 console.log(`Value of variable ${role} And Type of variable ${typeof role}`);
+
+// Null
+let value = null;
+console.log(`Value of variable ${value} And Type of variable ${typeof value}`);
