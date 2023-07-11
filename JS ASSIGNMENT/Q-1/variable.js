@@ -10,3 +10,7 @@ let Y = false;
 
 console.log(`Value of variable ${X} And Type of variable ${typeof(X)}`);
 console.log(`Value of variable ${Y} And Type of variable ${typeof(Y)}`);
+
+// Undefined
+let role = undefined;
+console.log(`Value of variable ${role} And Type of variable ${typeof role}`);
