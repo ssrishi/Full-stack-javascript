@@ -28,3 +28,6 @@ const Teacher = {
     makeVideos: true,
     __proto__:User
 }
+const TeachingSupport = {
+    isAvailable: false
+}
