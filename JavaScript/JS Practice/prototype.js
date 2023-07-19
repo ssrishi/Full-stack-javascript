@@ -31,3 +31,8 @@ const Teacher = {
 const TeachingSupport = {
     isAvailable: false
 }
+const TSAssistant = {
+    makeAssignment: 'JS assigment',
+    fullTime: true,
+    __proto__: TeachingSupport
+}
