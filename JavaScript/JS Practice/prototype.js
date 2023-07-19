@@ -41,3 +41,10 @@ Teacher.__proto__ = User
 //modern syntax
 
 Object.setPrototypeOf(TeachingSupport, Teacher)
+// Goal: get truelength of string
+String.prototype.truelength = function(){
+    console.log(`${this}`);
+    console.log(`true length is: ${this.trim().length}`);
+}
+    
+let myname = "hitesh   "
