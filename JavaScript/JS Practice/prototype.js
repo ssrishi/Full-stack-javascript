@@ -10,11 +10,21 @@ let heropower = {
     }
 }
 Object.prototype.hitesh = function(){
-        console.log(`Hitesh is peresent in all objects`);
-    }
+    console.log(`Hitesh is peresent in all objects`);
+}
 
-    Array.prototype.heyHitesh = function(){
-        console.log(`Hitesh says hello`);
-    }
+Array.prototype.heyHitesh = function(){
+    console.log(`Hitesh says hello`);
+}
 
-    myHeros.hitesh()
+myHeros.hitesh()
+ //inheritance 
+
+const User = {
+    name: "top name",
+    email: "topuser@gmail.com"
+}
+const Teacher = {
+    makeVideos: true,
+    __proto__:User
+}
