@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asyn</title>
+</head>
+<body>
+    <h1>Rishi Sharma</h1>
+    <button id="start">Start</button>
+    <button id="stop">stop</button>
+</body>
+<script>
+    let startInterval
+    const start = document.querySelector("#start")
+    const stop = document.querySelector("#stop")
+
+    start.addEventListener('click',function(){
+        startInterval = setInterval(function(){
+            console.log(`${Date.now()}`)
+        },2000)
+    })
+    stop.addEventListener('click',function(){
+        clearInterval(startInterval)
+    })    
+</script>
+</html>
