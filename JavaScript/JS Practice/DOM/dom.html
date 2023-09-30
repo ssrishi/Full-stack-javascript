@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Learning</title>
+</head>
+<body style ="background-color: #212121; color: aliceblue;">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thrusday</div>
+    </div>
+    <script>
+        const parent = document.querySelector(".parent"); // It is very time consuming process so try to use it less
+        // console.log(parent)      
+        // console.log(parent.children);      
+        // console.log(parent.children[1].textContent);
+        parent.style.padding = "20px"
+        // for (let i = 0; i < parent.children.length; i++) {
+        //     console.log(parent.children[i].innerHTML);
+        //     console.log(parent.children[i].style.padding = "10px");
+        //     console.log(parent.children[i].style.color="#f1f1f1");
+        // }
+        // console.log(parent.lastElementChild);
+        const dayOne = parent.firstElementChild;
+        // console.log(dayOne.parentElement);
+        // console.log(dayOne.nextElementSibling);
+        console.log("Nodes", parent.childNodes); //This gives node list of nine element
+        // when you enter it also counts that as a one node 
+    </script>
+    
+</body>
+</html>
