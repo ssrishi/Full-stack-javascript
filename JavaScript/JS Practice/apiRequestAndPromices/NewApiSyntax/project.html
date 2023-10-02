@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apiSmallProject</title>
+    <style>
+        body{
+            background-color: #313131;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #f1f1f1;
+        }
+        #quotes{
+            text-align: center;
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="./download.jpg" alt="" srcset="">
+    </div>
+    <p id="quotes"></p>
+    <button>Refresh</button>
+</body>
+<script>
+    const btn = document.querySelector("button")
+    const paragraph = document.querySelector("p")
+    let quote
+    fetch("https://api.kanye.rest")
+        .then(function(response){   
+        return response.json()
+        })
+        .then(function(data){
+            paragraph.innerHTML = `<h1>${data.quote}</h1>`
+        })
+        .catch(function(){
+            paragraph.innerHTML = "<h1>Please Check Your Internet Connection</h1>"
+        })
+    btn.addEventListener('click',function(){
+        fetch("https://api.kanye.rest")
+        .then(function(response){   
+        return response.json()
+        })
+        .then(function(data){
+            paragraph.innerHTML = `<h1>${data.quote}</h1>`
+        })
+        .catch(function(){
+            paragraph.innerHTML = "<h1>Please Check Your Internet Connection</h1>"
+        })
+    })
+</script>
+</html>
