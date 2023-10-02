@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Request class 1</title>
+</head>
+<body style="background-color: #212121; color:#fff  ">
+    <H1>Click To Get My Data</H1>
+    <button>Click me</button>
+    <button id="remove">Remove</button>
+    <div id ="div"></div>
+</body>
+<script>
+    let image; 
+    let followers; 
+    div = document.querySelector('#div')
+    button = document.querySelector('button')
+    remove = document.querySelector('#remove')
+    card = document.createElement('div')
+    card.className = "card"
+    // card.style.display = "none"
+    const url = "https://api.github.com/users/hiteshchoudhary"
+    const Apirequest = new XMLHttpRequest()
+    Apirequest.open('GET',url)
+    Apirequest.onreadystatechange = function(){
+        console.log(Apirequest.readyState);
+        if (Apirequest.readyState === 4 ){
+            const data = JSON.parse(this.responseText)
+            console.log(data)
+            button.addEventListener('click',function(){
+                card.innerHTML = `<img src="${data.avatar_url}" alt="Italian Trulli"></img`
+                card.innerHTML += `<h3>Total Followers: ${data.followers}</h3>`
+                div.appendChild(card)
+            })
+            remove.addEventListener('click',function(){
+                div.removeChild(card)
+            })
+        }
+    }
+    Apirequest.send()
+</script>
+</html>
