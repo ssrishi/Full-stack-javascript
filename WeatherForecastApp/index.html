@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="root">
+        <div class="title">
+            <h1>Weather Forcast App</h1>
+            <div class="weatherCard">
+                <div class="WeatherDetail">
+                    <div class="searchContainer">
+                        <img src="./assets/search.png" alt="" srcset="">
+                        <input type="search" placeholder="Enter City" >
+                        <button id="search" type="button">Search</button>
+                    </div>
+                    <div id="conditionImage">
+                        <img src="./assets/116.webp" alt="">
+                    </div>
+                    <p id="degree">30<sup>o C</sup> </p>
+                    <p id="conditionText"> Partly Cloudy </p>
+                    <div id="locationPart">
+                        <img src="./assets/google-maps.png" alt="Location">
+                        <span id="location">Faridabad,India</span>                
+                    </div>
+                </div>
+                <div class="WeatherMoreDetail">
+                    <span>Today's Highlights</span>
+                    <div class="upperdiv"> 
+                        <div class="UVIndex">
+                            <span>UV Index</span>
+                            <img src="./assets/uv.png" alt="UV">
+                            <span id="uv"> 8</span>
+                        </div>
+                        <div class="windStatus">
+                            <span>wind Status</span>
+                            <img src="./assets/wind.png" alt="UV">
+                            <span id="wind"> 16.9Km/h</span>
+                        </div>
+                        <div class="SunriseSunset">
+                            <span>Sunrise & Sunset </span>
+                            <span id="sunrise"></span>
+                            <span id="sunset"></span>
+                            </div>
+                    </div>
+                    <div class="lowerdiv"> 
+                        <div class="humidity">
+                            <span>Humidity</span>
+                            <img src="./assets/humidity.png" alt="UV">
+                            <span id="humidity"> 8</span>
+                        </div>
+                        <div class="Visibility">
+                            <span>Visibility</span>
+                            <img src="./assets/haze.png" alt="UV">
+                            <span id="visibility"> 16.9Km/h</span>
+                        </div>
+                        <div class="feelslike">
+                            <span>Feels Like </span>
+                            <span><img src="./assets/weather.png" alt="sunrise"></span>
+                            <span id="feelslike"> 16.9Km/h</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
